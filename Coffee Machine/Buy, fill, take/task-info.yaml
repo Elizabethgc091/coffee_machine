@@ -1,0 +1,42 @@
+type: remote_edu
+custom_name: Buy, fill, take!
+files:
+- name: main.js
+  visible: true
+  text: |-
+    // Use "input()" to input a line from the user
+    // Use "input(str)" to print some text before requesting input
+    // You will need this in the following stages
+
+    const input = require('sync-input')
+
+    let waterForOneCup = 200;
+    let milkForOneCup = 50;
+    let gramsCoffeeOneCup = 15;
+    let cups = 0;
+
+    let water = input("Write how many ml of water the coffee machine has:");
+    let milk = input("Write how many ml of milk the coffee machine has:");
+    let gramsCoffee = input("Write how many grams of coffee beans the coffee machine has:");
+    let cupsCoffee = input("Write how many cups of coffee you will need:");
+
+    let additionalCups = Math.min(water/200, Math.min(milk/50, gramsCoffee/15));
+    cups =Math.trunc(additionalCups);
+
+    if (cupsCoffee == cups){
+        console.log("Yes, I can make that amount of coffee");
+    } else if (cupsCoffee > cups) {
+        console.log(`No, I can make only ${cups} cups of coffee`);
+    } else
+        console.log(`Yes, I can make that amount of coffee (and even ${cups-cupsCoffee} more than that)`);
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17039#comment
+check_profile: hyperskill_node_javascript
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 23 May 2022 00:11:46 UTC
+record: 4

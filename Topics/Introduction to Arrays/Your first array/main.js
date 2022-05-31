@@ -1,0 +1,1 @@
+const myFirstArray = [10];

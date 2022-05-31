@@ -1,0 +1,16 @@
+type: code
+custom_name: What is your salary?
+files:
+- name: main.js
+  visible: true
+  text: |-
+    function getSalary(value){
+         // write your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10697#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 24 May 2022 22:44:40 UTC
+record: -1

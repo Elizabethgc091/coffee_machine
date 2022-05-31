@@ -1,0 +1,15 @@
+type: code
+files:
+- name: main.js
+  visible: true
+  text: |-
+    function checkEvenOrOdd(numbers) {
+        // write your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9378#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 24 May 2022 23:11:09 UTC
+record: -1

@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: An error will occur
+- text: Nothing
+- text: The "Execution..." string will be printed infinitely
+- text: The "Execution..." string will be printed once
+- text: 10
+files:
+- name: main.js
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9131#comment
+status: Solved
+record: -1
